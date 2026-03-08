@@ -1,6 +1,6 @@
 {
   "name": "gempper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "One-command setup for Gempper — a Flipper Zero remote for Gemini CLI",
   "bin": {
     "gempper": "./bin/gempper.js"
