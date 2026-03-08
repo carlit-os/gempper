@@ -1,0 +1,8 @@
+y
+n
+/compact
+/clear
+/stats
+/model
+/help
+/status

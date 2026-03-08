@@ -1,0 +1,27 @@
+{
+  "name": "gempper",
+  "version": "1.0.0",
+  "description": "One-command setup for Gempper — a Flipper Zero remote for Gemini CLI",
+  "bin": {
+    "gempper": "./bin/gempper.js"
+  },
+  "files": [
+    "bin/",
+    "skill/",
+    "faps/",
+    "macros/"
+  ],
+  "keywords": [
+    "gemini",
+    "gemini-cli",
+    "flipper-zero",
+    "remote",
+    "gempper",
+    "hid"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OWNER/gempper"
+  }
+}

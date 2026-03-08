@@ -1,0 +1,17 @@
+/quit
+/compact
+/model
+/clear
+/stats
+/help
+/status
+review this code
+commit the changes
+run the tests
+create a GEMINI.md for this project
+Audit our entire codebase. Use best practices according to official docs.
+Push to GH
+Give me a progress report on our project.
+Run a security audit. Implement any low-effort, high value fixes
+{update}
+Continue, please.
