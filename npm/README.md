@@ -52,7 +52,7 @@ npx gempper --uninstall
 
 ## Links
 
-- [GitHub](https://github.com/Wet-wr-Labs/gempper)
-- [Wetware Labs](https://WetwareOfficial.com)
+- [GitHub](https://github.com/carlit-os/gempper)
+- [Claupper](https://github.com/Wet-wr-Labs/claupper) — the original
 
-Made by Kasen Sansonetti & the Wetware Labs team. Originally based on [Claupper](https://github.com/Wet-wr-Labs/claupper).
+Adapted from [Claupper](https://github.com/Wet-wr-Labs/claupper) by [Kasen Sansonetti](https://github.com/w3t-wr3) & [Wetware Labs](https://WetwareOfficial.com).

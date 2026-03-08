@@ -153,14 +153,14 @@ Same features, same source — just different HID transport. BLE build includes 
 
 ### BLE Version (Momentum / Unleashed)
 
-1. Run `npx gempper` (or download from [Releases](https://github.com/OWNER/gempper/releases))
+1. Run `npx gempper` (or download from [Releases](https://github.com/carlit-os/gempper/releases))
 2. Copy `~/gempper/gemini_remote_ble.fap` to `SD/apps/Bluetooth/` on your Flipper
 3. Open from **Apps → Bluetooth → Gempper**
 4. Pair via Bluetooth on your computer
 
 ### USB Version (Stock Firmware)
 
-1. Run `npx gempper` (or download from [Releases](https://github.com/OWNER/gempper/releases))
+1. Run `npx gempper` (or download from [Releases](https://github.com/carlit-os/gempper/releases))
 2. Copy `~/gempper/gemini_remote_usb.fap` to `SD/apps/Tools/` on your Flipper
 3. Plug Flipper into your computer via USB
 4. Open from **Apps → Tools → Gemini Remote USB**
