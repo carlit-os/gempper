@@ -1,11 +1,11 @@
 #!/bin/bash
-# update_manual.sh — Regenerate Claude Remote manual files for Flipper Zero SD card
+# update_manual.sh — Regenerate Gemini Remote manual files for Flipper Zero SD card
 #
 # Usage:
 #   ./update_manual.sh [output_dir]
 #
 # Default output: ./manual_output/
-# Copy the contents to: /ext/apps_data/claude_remote/manual/ on the Flipper SD card
+# Copy the contents to: /ext/apps_data/gemini_remote/manual/ on the Flipper SD card
 #
 # This script generates .txt files formatted for the Flipper's 128x64 display
 # (lines ≤30 chars for readability on FontSecondary).
@@ -15,10 +15,10 @@ set -euo pipefail
 OUTPUT_DIR="${1:-./manual_output}"
 mkdir -p "$OUTPUT_DIR"
 
-echo "Generating Claude Remote manual files..."
+echo "Generating Gemini Remote manual files..."
 
 cat > "$OUTPUT_DIR/01_getting_started.txt" << 'CHAPTER'
-Claude Code is an agentic AI
+Gemini CLI is an agentic AI
 coding tool by Anthropic.
 
 It runs in your terminal and
@@ -40,7 +40,7 @@ CHAPTER
 cat > "$OUTPUT_DIR/02_keybindings.txt" << 'CHAPTER'
 Navigation:
  Ctrl+C  Cancel/interrupt
- Ctrl+D  Exit Claude Code
+ Ctrl+D  Exit Gemini CLI
  Up/Down Scroll history
  Esc     Cancel current input
  Tab     Accept autocomplete
@@ -151,7 +151,7 @@ echo "Generated files in $OUTPUT_DIR:"
 ls -la "$OUTPUT_DIR"
 echo ""
 echo "Copy to Flipper SD card:"
-echo "  cp $OUTPUT_DIR/*.txt /Volumes/FLIPPER/apps_data/claude_remote/manual/"
+echo "  cp $OUTPUT_DIR/*.txt /Volumes/FLIPPER/apps_data/gemini_remote/manual/"
 echo ""
 echo "Or create the directory first:"
-echo "  mkdir -p /Volumes/FLIPPER/apps_data/claude_remote/manual/"
+echo "  mkdir -p /Volumes/FLIPPER/apps_data/gemini_remote/manual/"
